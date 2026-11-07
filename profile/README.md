@@ -5,7 +5,7 @@
 
 **A terminal for people and agents. Native apps, polished terminal views, and a portable engine with a persistent multiplexer.**
 
-[Get the apps](https://github.com/ubiquitty/ubiquitty#install) · [Embed a terminal view](https://github.com/ubiquitty/ubiquitty-kit) · [Build with Core](https://github.com/ubiquitty/ubiquitty-core)
+[Get the apps](https://github.com/ubiquitty/ubiquitty#install) · [Embed a terminal view](https://github.com/ubiquitty/kit) · [Build with Core](https://github.com/ubiquitty/core)
 
 <a href="https://raw.githubusercontent.com/ubiquitty/ubiquitty/main/Docs/images/opencode-proportional.png"><img src="https://raw.githubusercontent.com/ubiquitty/ubiquitty/main/Docs/images/opencode-proportional.png" width="1000" alt="A native Ubiquitty window connected to a Linux host: OpenCode answers in proportional text beside a deployment dashboard, with an attached-agent badge in the title bar."></a>
 
@@ -33,10 +33,14 @@ Proportional rich text alongside terminal programs, careful shaping and ligature
 | You want to… | Start here |
 |---|---|
 | Use the terminal apps and persistent multiplexer | [**Ubiquitty apps**](https://github.com/ubiquitty/ubiquitty) — macOS, iOS, Linux, and web frontends. [Install or build →](https://github.com/ubiquitty/ubiquitty#install) |
-| Add a performant, polished terminal view to your app | [**UbiquittyKit**](https://github.com/ubiquitty/ubiquitty-kit) — finely tuned typography; Metal views for macOS and iOS; Vulkan, FreeType, and software renderers for Linux. [Native-view API →](https://github.com/ubiquitty/ubiquitty-kit/blob/main/Docs/ubiquittykit-api.md) |
-| Own the UI, embed the engine, or build on persistent sessions | [**Ubiquitty Core**](https://github.com/ubiquitty/ubiquitty-core) — C++/C terminal engine, `libubiquitty`, `ubiquitty-host`, Sync, and CLI/MCP access with host-enforced permissions. [Embedding guide →](https://github.com/ubiquitty/ubiquitty-core/blob/main/Docs/libubiquittycore.md) |
+| Add a performant, polished terminal view to your app | [**UbiquittyKit**](https://github.com/ubiquitty/kit) — finely tuned typography; Metal views for macOS and iOS; Vulkan, FreeType, and software renderers for Linux. [Native-view API →](https://github.com/ubiquitty/kit/blob/main/Docs/ubiquittykit-api.md) |
+| Own the UI, embed the engine, or build on persistent sessions | [**Ubiquitty Core**](https://github.com/ubiquitty/core) — C++/C terminal engine, `libubiquitty`, `ubiquitty-host`, Sync, and CLI/MCP access with host-enforced permissions. [Embedding guide →](https://github.com/ubiquitty/core/blob/main/Docs/libubiquittycore.md) |
 
-**4,529 / 4,529 applicable conformance cases passed (100%).** Ubiquitty was also the **fastest parser among the engines and workloads in our comparative runs**. These are suite and parser-throughput results; rendering, latency, and energy are measured separately. [Conformance scope](https://github.com/ubiquitty/ubiquitty#conformance) · [Benchmark methods](https://github.com/ubiquitty/ubiquitty#benchmarks)
+**100% conformance: 4,529 / 4,529 applicable cases passed, versus about 65% for the next-best tested engine in our recorded comparison.**
+
+**The fastest parser in our comparative benchmarks, as of 7 November 2026.** [Conformance scope](https://github.com/ubiquitty/ubiquitty#conformance) · [Benchmark methods](https://github.com/ubiquitty/ubiquitty#benchmarks)
+
+<sub>The 65.31% result is from a recorded libghostty-vt run on 27 October 2026, before subsequent Ghostty fixes. Parser throughput, rendering, latency, and energy are measured separately.</sub>
 
 > The multiplexer and remote sessions are experimental. The Linux GTK app currently supports local sessions, without host attach. See the [platform and build guide](https://github.com/ubiquitty/ubiquitty/blob/main/Docs/platform-builds.md) for the status of each frontend.
 
