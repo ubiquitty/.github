@@ -59,7 +59,7 @@ working, done or waiting for you.
 |---|---|
 | Use the terminal apps and persistent multiplexer | [**Ubiquitty apps**](https://github.com/ubiquitty/ubiquitty) — macOS, iOS, Linux, and web frontends. [Install or build →](https://github.com/ubiquitty/ubiquitty#install) |
 | Add a performant, polished terminal view to your app | [**UbiquittyKit**](https://github.com/ubiquitty/kit) — finely tuned typography; Metal views for macOS and iOS; Vulkan, FreeType, and software renderers for Linux. [Native-view API →](https://github.com/ubiquitty/kit/blob/main/Docs/ubiquittykit-api.md) |
-| Own the UI, embed the engine, or build on persistent sessions | [**Ubiquitty Core**](https://github.com/ubiquitty/core) — C++/C terminal engine, `libubiquitty`, `ubiquitty-host`, Sync, and CLI/MCP access with host-enforced permissions. [Embedding guide →](https://github.com/ubiquitty/core/blob/main/Docs/libubiquittycore.md) |
+| Own the UI, embed the engine, or build on persistent sessions | [**Ubiquitty Core**](https://github.com/ubiquitty/core) — portable terminal engine, `libubiquitty`, `ubiquitty-host`, Sync, and CLI/MCP access with host-enforced permissions. [Embedding guide →](https://github.com/ubiquitty/core/blob/main/Docs/libubiquittycore.md) |
 
 > The multiplexer and remote sessions are experimental. The Linux GTK app currently supports local sessions, without host attach. See the [platform and build guide](https://github.com/ubiquitty/ubiquitty/blob/main/Docs/platform-builds.md) for the status of each frontend.
 
